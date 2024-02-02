@@ -1,0 +1,16 @@
+.navbar  {
+    width: 100%;
+    height: 30px;
+    background-color: #5e0444;
+    flex-direction: row;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    padding: 50px 50px;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    align-items: flex-start;
+    left:0px; 
+    top:0px;
+}

@@ -1,0 +1,91 @@
+.week-view-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  height: 120vh;
+  overflow-y: auto;
+}
+
+.week-details-box {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+} 
+
+.button {
+  text-align: center;
+  padding: 130px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 26px;
+  font-weight: bold;
+
+}
+
+.button a:hover {
+  color: #007bff;
+}
+
+
+h3 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select, input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="date"] {
+  cursor: not-allowed;
+}
+
+.day-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.total-hours {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: blue;
+}
+
+.submitted-data {
+  font-size: 15px;
+
+}
